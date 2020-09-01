@@ -1,0 +1,23 @@
+{
+    "user": "JoaquinZc",
+    "repo": "Socket",
+    "resources": [
+        {
+            "name": "^socket-(.*).zip$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/socket.so"]
+        },
+        {
+            "name": "^socket-(.*).zip$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/socket.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["JoaquinZc/Socket"]
+    }   
+}
